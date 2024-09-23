@@ -12,7 +12,7 @@ from sklearn.cluster import MiniBatchKMeans
 import os
 
 
-path = "pexels-pixabay-60597.jpg"
+path = "abc.jpg"
 img = cv2.imread(path)
 file_info = (os.stat(path).st_size)/1024
 
